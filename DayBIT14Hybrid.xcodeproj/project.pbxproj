@@ -7,28 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1440847D252ECB6D00573D10 /* RestWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440847B252ECB6D00573D10 /* RestWebService.swift */; };
+		1440847E252ECB6D00573D10 /* UrlRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440847C252ECB6D00573D10 /* UrlRequestBuilder.swift */; };
 		148B169F252EA4A20092B565 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 148B169E252EA4A20092B565 /* AppDelegate.m */; };
 		148B16A2252EA4A20092B565 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 148B16A1252EA4A20092B565 /* SceneDelegate.m */; };
-		148B16A5252EA4A20092B565 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148B16A4252EA4A20092B565 /* ViewController.m */; };
+		148B16A5252EA4A20092B565 /* TermOfUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148B16A4252EA4A20092B565 /* TermOfUseViewController.m */; };
 		148B16A8252EA4A20092B565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148B16A6252EA4A20092B565 /* Main.storyboard */; };
 		148B16AA252EA4A50092B565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148B16A9252EA4A50092B565 /* Assets.xcassets */; };
 		148B16AD252EA4A50092B565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148B16AB252EA4A50092B565 /* LaunchScreen.storyboard */; };
 		148B16B0252EA4A50092B565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 148B16AF252EA4A50092B565 /* main.m */; };
+		14CC9298252EE4D70033DDF7 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9296252EE4D70033DDF7 /* DataTableViewCell.swift */; };
+		14CC9299252EE4D70033DDF7 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CC9297252EE4D70033DDF7 /* DataTableViewCell.xib */; };
+		14CC929C252EE4EF0033DDF7 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC929B252EE4EF0033DDF7 /* DataViewController.swift */; };
+		14CC92A5252F085F0033DDF7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CC92A4252F085F0033DDF7 /* WidgetKit.framework */; };
+		14CC92A7252F085F0033DDF7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CC92A6252F085F0033DDF7 /* SwiftUI.framework */; };
+		14CC92AA252F085F0033DDF7 /* DayBIT14HybridWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC92A9252F085F0033DDF7 /* DayBIT14HybridWidget.swift */; };
+		14CC92AD252F08660033DDF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CC92AC252F08660033DDF7 /* Assets.xcassets */; };
+		14CC92AF252F08660033DDF7 /* DayBIT14HybridWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 14CC92AB252F085F0033DDF7 /* DayBIT14HybridWidget.intentdefinition */; };
+		14CC92B0252F08660033DDF7 /* DayBIT14HybridWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 14CC92AB252F085F0033DDF7 /* DayBIT14HybridWidget.intentdefinition */; };
+		14CC92B3252F08660033DDF7 /* DayBIT14HybridWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 14CC92A3252F085F0033DDF7 /* DayBIT14HybridWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		808ABB53B96A8D6B312390B7 /* libPods-DayBIT14Hybrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B22EA4A1578C659B06C23FE /* libPods-DayBIT14Hybrid.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		14CC92B1252F08660033DDF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148B1692252EA4A20092B565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CC92A2252F085E0033DDF7;
+			remoteInfo = DayBIT14HybridWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14CC92B7252F08670033DDF7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				14CC92B3252F08660033DDF7 /* DayBIT14HybridWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1440847B252ECB6D00573D10 /* RestWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestWebService.swift; sourceTree = "<group>"; };
+		1440847C252ECB6D00573D10 /* UrlRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlRequestBuilder.swift; sourceTree = "<group>"; };
 		148B169A252EA4A20092B565 /* DayBIT14Hybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayBIT14Hybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148B169D252EA4A20092B565 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		148B169E252EA4A20092B565 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		148B16A0252EA4A20092B565 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		148B16A1252EA4A20092B565 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		148B16A3252EA4A20092B565 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		148B16A4252EA4A20092B565 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		148B16A3252EA4A20092B565 /* TermOfUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermOfUseViewController.h; sourceTree = "<group>"; };
+		148B16A4252EA4A20092B565 /* TermOfUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermOfUseViewController.m; sourceTree = "<group>"; };
 		148B16A7252EA4A20092B565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		148B16A9252EA4A50092B565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148B16AC252EA4A50092B565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		148B16AE252EA4A50092B565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		148B16AF252EA4A50092B565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		148B16B8252EA6DD0092B565 /* DayBIT14Hybrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayBIT14Hybrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		14CC9296252EE4D70033DDF7 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		14CC9297252EE4D70033DDF7 /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		14CC929B252EE4EF0033DDF7 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		14CC92A3252F085F0033DDF7 /* DayBIT14HybridWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DayBIT14HybridWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CC92A4252F085F0033DDF7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		14CC92A6252F085F0033DDF7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		14CC92A9252F085F0033DDF7 /* DayBIT14HybridWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayBIT14HybridWidget.swift; sourceTree = "<group>"; };
+		14CC92AB252F085F0033DDF7 /* DayBIT14HybridWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DayBIT14HybridWidget.intentdefinition; sourceTree = "<group>"; };
+		14CC92AC252F08660033DDF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CC92AE252F08660033DDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F02D9E1EB7F47E0483A409 /* Pods-DayBIT14Hybrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayBIT14Hybrid.debug.xcconfig"; path = "Target Support Files/Pods-DayBIT14Hybrid/Pods-DayBIT14Hybrid.debug.xcconfig"; sourceTree = "<group>"; };
+		5B22EA4A1578C659B06C23FE /* libPods-DayBIT14Hybrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DayBIT14Hybrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67989B336CA6723B33F901A2 /* Pods-DayBIT14Hybrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayBIT14Hybrid.release.xcconfig"; path = "Target Support Files/Pods-DayBIT14Hybrid/Pods-DayBIT14Hybrid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +89,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808ABB53B96A8D6B312390B7 /* libPods-DayBIT14Hybrid.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CC92A0252F085E0033DDF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CC92A7252F085F0033DDF7 /* SwiftUI.framework in Frameworks */,
+				14CC92A5252F085F0033DDF7 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				148B169C252EA4A20092B565 /* DayBIT14Hybrid */,
+				14CC92A8252F085F0033DDF7 /* DayBIT14HybridWidget */,
 				148B169B252EA4A20092B565 /* Products */,
+				158A5F5F115AE558B3FE20B2 /* Pods */,
+				79D9DB02473460A58D9A5FB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				148B169A252EA4A20092B565 /* DayBIT14Hybrid.app */,
+				14CC92A3252F085F0033DDF7 /* DayBIT14HybridWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,12 +128,14 @@
 		148B169C252EA4A20092B565 /* DayBIT14Hybrid */ = {
 			isa = PBXGroup;
 			children = (
+				148B16B8252EA6DD0092B565 /* DayBIT14Hybrid-Bridging-Header.h */,
+				148B16B7252EA4C20092B565 /* Swift */,
 				148B169D252EA4A20092B565 /* AppDelegate.h */,
 				148B169E252EA4A20092B565 /* AppDelegate.m */,
 				148B16A0252EA4A20092B565 /* SceneDelegate.h */,
 				148B16A1252EA4A20092B565 /* SceneDelegate.m */,
-				148B16A3252EA4A20092B565 /* ViewController.h */,
-				148B16A4252EA4A20092B565 /* ViewController.m */,
+				148B16A3252EA4A20092B565 /* TermOfUseViewController.h */,
+				148B16A4252EA4A20092B565 /* TermOfUseViewController.m */,
 				148B16A6252EA4A20092B565 /* Main.storyboard */,
 				148B16A9252EA4A50092B565 /* Assets.xcassets */,
 				148B16AB252EA4A50092B565 /* LaunchScreen.storyboard */,
@@ -76,6 +145,48 @@
 			path = DayBIT14Hybrid;
 			sourceTree = "<group>";
 		};
+		148B16B7252EA4C20092B565 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1440847B252ECB6D00573D10 /* RestWebService.swift */,
+				1440847C252ECB6D00573D10 /* UrlRequestBuilder.swift */,
+				14CC9296252EE4D70033DDF7 /* DataTableViewCell.swift */,
+				14CC9297252EE4D70033DDF7 /* DataTableViewCell.xib */,
+				14CC929B252EE4EF0033DDF7 /* DataViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		14CC92A8252F085F0033DDF7 /* DayBIT14HybridWidget */ = {
+			isa = PBXGroup;
+			children = (
+				14CC92A9252F085F0033DDF7 /* DayBIT14HybridWidget.swift */,
+				14CC92AB252F085F0033DDF7 /* DayBIT14HybridWidget.intentdefinition */,
+				14CC92AC252F08660033DDF7 /* Assets.xcassets */,
+				14CC92AE252F08660033DDF7 /* Info.plist */,
+			);
+			path = DayBIT14HybridWidget;
+			sourceTree = "<group>";
+		};
+		158A5F5F115AE558B3FE20B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35F02D9E1EB7F47E0483A409 /* Pods-DayBIT14Hybrid.debug.xcconfig */,
+				67989B336CA6723B33F901A2 /* Pods-DayBIT14Hybrid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79D9DB02473460A58D9A5FB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B22EA4A1578C659B06C23FE /* libPods-DayBIT14Hybrid.a */,
+				14CC92A4252F085F0033DDF7 /* WidgetKit.framework */,
+				14CC92A6252F085F0033DDF7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,18 +194,38 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 148B16B3252EA4A50092B565 /* Build configuration list for PBXNativeTarget "DayBIT14Hybrid" */;
 			buildPhases = (
+				6BEF35E6977DB78282FB0BBB /* [CP] Check Pods Manifest.lock */,
 				148B1696252EA4A20092B565 /* Sources */,
 				148B1697252EA4A20092B565 /* Frameworks */,
 				148B1698252EA4A20092B565 /* Resources */,
+				14CC92B7252F08670033DDF7 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				14CC92B2252F08660033DDF7 /* PBXTargetDependency */,
 			);
 			name = DayBIT14Hybrid;
 			productName = DayBIT14Hybrid;
 			productReference = 148B169A252EA4A20092B565 /* DayBIT14Hybrid.app */;
 			productType = "com.apple.product-type.application";
+		};
+		14CC92A2252F085E0033DDF7 /* DayBIT14HybridWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CC92B4252F08670033DDF7 /* Build configuration list for PBXNativeTarget "DayBIT14HybridWidgetExtension" */;
+			buildPhases = (
+				14CC929F252F085E0033DDF7 /* Sources */,
+				14CC92A0252F085E0033DDF7 /* Frameworks */,
+				14CC92A1252F085E0033DDF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayBIT14HybridWidgetExtension;
+			productName = DayBIT14HybridWidgetExtension;
+			productReference = 14CC92A3252F085F0033DDF7 /* DayBIT14HybridWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,9 +233,14 @@
 		148B1692252EA4A20092B565 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					148B1699252EA4A20092B565 = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
+					};
+					14CC92A2252F085E0033DDF7 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -123,6 +259,7 @@
 			projectRoot = "";
 			targets = (
 				148B1699252EA4A20092B565 /* DayBIT14Hybrid */,
+				14CC92A2252F085E0033DDF7 /* DayBIT14HybridWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -135,24 +272,80 @@
 				148B16AD252EA4A50092B565 /* LaunchScreen.storyboard in Resources */,
 				148B16AA252EA4A50092B565 /* Assets.xcassets in Resources */,
 				148B16A8252EA4A20092B565 /* Main.storyboard in Resources */,
+				14CC9299252EE4D70033DDF7 /* DataTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CC92A1252F085E0033DDF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CC92AD252F08660033DDF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BEF35E6977DB78282FB0BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayBIT14Hybrid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		148B1696252EA4A20092B565 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148B16A5252EA4A20092B565 /* ViewController.m in Sources */,
+				148B16A5252EA4A20092B565 /* TermOfUseViewController.m in Sources */,
+				14CC92B0252F08660033DDF7 /* DayBIT14HybridWidget.intentdefinition in Sources */,
+				1440847E252ECB6D00573D10 /* UrlRequestBuilder.swift in Sources */,
 				148B169F252EA4A20092B565 /* AppDelegate.m in Sources */,
 				148B16B0252EA4A50092B565 /* main.m in Sources */,
+				14CC929C252EE4EF0033DDF7 /* DataViewController.swift in Sources */,
 				148B16A2252EA4A20092B565 /* SceneDelegate.m in Sources */,
+				14CC9298252EE4D70033DDF7 /* DataTableViewCell.swift in Sources */,
+				1440847D252ECB6D00573D10 /* RestWebService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CC929F252F085E0033DDF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CC92AF252F08660033DDF7 /* DayBIT14HybridWidget.intentdefinition in Sources */,
+				14CC92AA252F085F0033DDF7 /* DayBIT14HybridWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14CC92B2252F08660033DDF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CC92A2252F085E0033DDF7 /* DayBIT14HybridWidgetExtension */;
+			targetProxy = 14CC92B1252F08660033DDF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		148B16A6252EA4A20092B565 /* Main.storyboard */ = {
@@ -288,9 +481,12 @@
 		};
 		148B16B4252EA4A50092B565 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F02D9E1EB7F47E0483A409 /* Pods-DayBIT14Hybrid.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DayBIT14Hybrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,15 +495,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bca.jlius.DayBIT14Hybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "DayBIT14Hybrid/DayBIT14Hybrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		148B16B5252EA4A50092B565 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67989B336CA6723B33F901A2 /* Pods-DayBIT14Hybrid.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DayBIT14Hybrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +518,52 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bca.jlius.DayBIT14Hybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DayBIT14Hybrid/DayBIT14Hybrid-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		14CC92B5252F08670033DDF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DayBIT14HybridWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bca.jlius.DayBIT14Hybrid.DayBIT14HybridWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CC92B6252F08670033DDF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DayBIT14HybridWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bca.jlius.DayBIT14Hybrid.DayBIT14HybridWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -337,6 +585,15 @@
 			buildConfigurations = (
 				148B16B4252EA4A50092B565 /* Debug */,
 				148B16B5252EA4A50092B565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CC92B4252F08670033DDF7 /* Build configuration list for PBXNativeTarget "DayBIT14HybridWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CC92B5252F08670033DDF7 /* Debug */,
+				14CC92B6252F08670033DDF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
